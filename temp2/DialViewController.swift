@@ -131,7 +131,7 @@ class DialViewController: UIViewController {
         
         let url:NSURL = NSURL(string: "telprompt://\(number1)")!
         UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
-        //print(url)
+        print(url)
         
     }
     
